@@ -1,0 +1,12 @@
+[
+  {
+    "ContainingType": "MyApp.Namespace.TestWordDocumentController",
+    "Method": "Get",
+    "RelativePath": "api/TestWordDocument",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

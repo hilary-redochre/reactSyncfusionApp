@@ -1,0 +1,130 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "reactSyncfusionApp/1.0.0": {
+        "dependencies": {
+          "Syncfusion.DocIO.Net.Core": "34.2.8"
+        },
+        "runtime": {
+          "reactSyncfusionApp.dll": {}
+        }
+      },
+      "Syncfusion.Compression.Net.Core/34.2.8": {
+        "runtime": {
+          "lib/net10.0/Syncfusion.Compression.Portable.dll": {
+            "assemblyVersion": "34.2.8.0",
+            "fileVersion": "34.2.8.0"
+          }
+        }
+      },
+      "Syncfusion.DocIO.Net.Core/34.2.8": {
+        "dependencies": {
+          "Syncfusion.Compression.Net.Core": "34.2.8",
+          "Syncfusion.Licensing": "34.2.8",
+          "Syncfusion.Markdown": "34.2.8",
+          "Syncfusion.OfficeChart.Net.Core": "34.2.8",
+          "Syncfusion.Telemetry": "34.2.8"
+        },
+        "runtime": {
+          "lib/net10.0/Syncfusion.DocIO.Portable.dll": {
+            "assemblyVersion": "34.2.8.0",
+            "fileVersion": "34.2.8.0"
+          }
+        }
+      },
+      "Syncfusion.Licensing/34.2.8": {
+        "runtime": {
+          "lib/net10.0/Syncfusion.Licensing.dll": {
+            "assemblyVersion": "34.2.8.0",
+            "fileVersion": "34.2.8.0"
+          }
+        }
+      },
+      "Syncfusion.Markdown/34.2.8": {
+        "dependencies": {
+          "Syncfusion.Licensing": "34.2.8",
+          "Syncfusion.Telemetry": "34.2.8"
+        },
+        "runtime": {
+          "lib/net10.0/Syncfusion.Markdown.dll": {
+            "assemblyVersion": "34.2.8.0",
+            "fileVersion": "34.2.8.0"
+          }
+        }
+      },
+      "Syncfusion.OfficeChart.Net.Core/34.2.8": {
+        "dependencies": {
+          "Syncfusion.Compression.Net.Core": "34.2.8"
+        },
+        "runtime": {
+          "lib/net10.0/Syncfusion.OfficeChart.Portable.dll": {
+            "assemblyVersion": "34.2.8.0",
+            "fileVersion": "34.2.8.0"
+          }
+        }
+      },
+      "Syncfusion.Telemetry/34.2.8": {
+        "runtime": {
+          "lib/net10.0/Syncfusion.Telemetry.dll": {
+            "assemblyVersion": "34.2.8.0",
+            "fileVersion": "34.2.8.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "reactSyncfusionApp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Syncfusion.Compression.Net.Core/34.2.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-U4c4DCfS6cyssombQe7PLzuqA0gZ8yGgNEJoebD1rRfkAEoDG+j9maU0Qy7CcuFPh/0B0qJaHV+O+U6RWXrs0g==",
+      "path": "syncfusion.compression.net.core/34.2.8",
+      "hashPath": "syncfusion.compression.net.core.34.2.8.nupkg.sha512"
+    },
+    "Syncfusion.DocIO.Net.Core/34.2.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-y5h5DDQ3zVfIL45CZh5ty+xEtN3TW3hk65betypqy+kD9GOrWrif699DUwNOWwzcm76PVz0NI/YM72Cuo7BWvQ==",
+      "path": "syncfusion.docio.net.core/34.2.8",
+      "hashPath": "syncfusion.docio.net.core.34.2.8.nupkg.sha512"
+    },
+    "Syncfusion.Licensing/34.2.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-COzWjktSWKLFZERuRv4HjCDJWD/aONP1u43qGFOARZc1ui/gp4KqBvPjWRWNpZ60+BwLKeuoNW7YblEvEpCvmw==",
+      "path": "syncfusion.licensing/34.2.8",
+      "hashPath": "syncfusion.licensing.34.2.8.nupkg.sha512"
+    },
+    "Syncfusion.Markdown/34.2.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7s/wZbDrZjn/dbd+lcKsImbRKwtRYTkJu3NaV57y7hjrGiXDoiqHjtKj0UYegzBoPRou1wXls2jsNt+lvsLkqg==",
+      "path": "syncfusion.markdown/34.2.8",
+      "hashPath": "syncfusion.markdown.34.2.8.nupkg.sha512"
+    },
+    "Syncfusion.OfficeChart.Net.Core/34.2.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-h6ZL/OTLHdLafYiBgMvv/sGO2CMTPn/H3KA0dqH/hBvytZqX3SDy8hRnjCOg9IrWvm+DZjcSCAJNYe4Z8y89UQ==",
+      "path": "syncfusion.officechart.net.core/34.2.8",
+      "hashPath": "syncfusion.officechart.net.core.34.2.8.nupkg.sha512"
+    },
+    "Syncfusion.Telemetry/34.2.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-GeBgJC7mYJ9zcbaM9z04YofP/7m+eSkFHjaBYwqyA1On/E3/kpIWKFFfypAgCRcPZ88qMa3c9EpatOhFCw1krg==",
+      "path": "syncfusion.telemetry/34.2.8",
+      "hashPath": "syncfusion.telemetry.34.2.8.nupkg.sha512"
+    }
+  }
+}
