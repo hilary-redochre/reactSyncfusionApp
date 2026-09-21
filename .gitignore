@@ -1,0 +1,18 @@
+# .NET
+bin/
+obj/
+
+# React / Node
+node_modules/
+ClientApp/node_modules/
+
+# Visual Studio
+.vs/
+
+# User-specific files
+*.user
+*.suo
+
+# Environment / local configuration
+.env
+.env.*
