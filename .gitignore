@@ -16,3 +16,6 @@ ClientApp/node_modules/
 # Environment / local configuration
 .env
 .env.*
+
+appsettings.json
+appsettings.Development.json

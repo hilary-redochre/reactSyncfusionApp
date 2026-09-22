@@ -1,5 +1,15 @@
 [
   {
+    "ContainingType": "MyApp.Namespace.OrdersController",
+    "Method": "GetOrders",
+    "RelativePath": "api/Orders",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "MyApp.Namespace.TestWordDocumentController",
     "Method": "Get",
     "RelativePath": "api/TestWordDocument",
@@ -7,6 +17,32 @@
     "IsController": true,
     "Order": 0,
     "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MyApp.Namespace.WordController",
+    "Method": "SalesInvoice",
+    "RelativePath": "api/Word/SalesInvoice",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "SaveOption",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Button",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
     "ReturnTypes": []
   }
 ]

@@ -1,3 +1,5 @@
+using Microsoft.EntityFrameworkCore;
+using reactSyncfusionApp.Models;
 using Syncfusion.DocIO;
 using Syncfusion.DocIO.DLS;
 
@@ -9,17 +11,21 @@ builder.Services.AddCors(options =>
     options.AddPolicy("ReactApp", policy =>
     {
         policy
-            .WithOrigins("http://localhost:5174")
+            .WithOrigins("http://localhost:5173")
             .AllowAnyHeader()
             .AllowAnyMethod();
     });
 });
 
 //register syncfusion license
-Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense("NxYtFisQPR08Cit/VkJ+Xk9GfV1CX2VUf1NrR2JJf1t6dVJMYFRaRnZdRF1qS39Tc0RkWXdYc3NXTWNY;Ngo9BigBOggjGyl/VkJ+Xk9GfV1CX2VUf1NrR2JJf1x6cVNMYlxaRnZdRF1qS39Tc0dhWHhZcnBWTWNY");
+Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense("NxYtFisQPR08Cit/VkJ+Xk9GfV1CX2VUf1NrR2JJf1t6dVJMYFRaRnZdRF1qS39Tc0RkWXdYc3NXTWNY;Ngo9BigBOggjGyl/VkJ+Xk9GfV1CX2VUf1NrR2JJf1x6cVNMYlxaRnZdRF1qS39Tc0dhWHhZcnBWTWNY;Ix0oFS8QJAw9HSQvXkVkQlNadFRAXWFPY1J2WGFbb15yflVEal1WT3RfQFtjQHxRdkdjW35Zc3VXRWtfVQ==");
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddDbContext<SalesInvoiceDbContext>(options =>
+    options.UseSqlServer(
+        builder.Configuration.GetConnectionString("DefaultConnection")));
 
 var app = builder.Build();
 
@@ -38,6 +44,8 @@ app.UseHttpsRedirection();
 app.UseRouting();
 
 app.UseAuthorization();
+
+app.MapControllers();
 
 app.MapStaticAssets();
 

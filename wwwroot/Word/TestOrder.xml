@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestOrders>
+  <TestOrder>
+    <OrderID>1</OrderID>
+    <ShipName>Test Customer</ShipName>
+    <ShipAddress>123 Test Street</ShipAddress>
+    <ShipCity>Perth</ShipCity>
+    <ShipPostalCode>6000</ShipPostalCode>
+    <ShipCountry>Australia</ShipCountry>
+    <PostalCode>6000</PostalCode>
+    <CustomerID>CUST001</CustomerID>
+    <Customers.CompanyName>Test Company Pty Ltd</Customers.CompanyName>
+    <HomePage>Test Salesperson</HomePage>
+    <Address>123 Test Street</Address>
+    <City>Perth</City>
+    <Country>Australia</Country>
+    <OrderDate>2026-09-22</OrderDate>
+    <RequiredDate>2026-09-29</RequiredDate>
+    <ShippedDate>2026-09-23</ShippedDate>
+    <Shippers.CompanyName>Test Shipping Co</Shippers.CompanyName>
+  </TestOrder>
+</TestOrders>

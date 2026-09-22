@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestOrderTotals>
+  <TestOrderTotal>
+    <OrderID>1</OrderID>
+    <Subtotal>95.00</Subtotal>
+    <Freight>10.00</Freight>
+    <Total>105.00</Total>
+  </TestOrderTotal>
+</TestOrderTotals>

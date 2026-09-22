@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestOrderDetails>
+  <TestOrderDetail>
+    <OrderID>1</OrderID>
+    <ProductID>1001</ProductID>
+    <ProductName>Test Product A</ProductName>
+    <UnitPrice>25.00</UnitPrice>
+    <Quantity>2</Quantity>
+    <Discount>0</Discount>
+    <ExtendedPrice>50.00</ExtendedPrice>
+  </TestOrderDetail>
+  <TestOrderDetail>
+    <OrderID>1</OrderID>
+    <ProductID>1002</ProductID>
+    <ProductName>Test Product B</ProductName>
+    <UnitPrice>15.00</UnitPrice>
+    <Quantity>3</Quantity>
+    <Discount>0</Discount>
+    <ExtendedPrice>45.00</ExtendedPrice>
+  </TestOrderDetail>
+</TestOrderDetails>
