@@ -6,7 +6,7 @@ function App() {
     const [message, setMessage] = useState(''); const createInvoice = async () => {
         try
         {
-            const response = await fetch('https://localhost:7186/api/Word/SalesInvoice?id=1&SaveOption=WordDoc&Button=Create');
+            const response = await fetch('https://localhost:7186/api/documents/invoice/123');
             if (!response.ok)
             {
                 throw new Error(`HTTP error: ${response.status}`);

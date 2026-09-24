@@ -1,5 +1,21 @@
 [
   {
+    "ContainingType": "reactSyncfusionApp.Controllers.DocumentsController",
+    "Method": "GenerateInvoice",
+    "RelativePath": "api/Documents/invoice/{orderId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "orderId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "MyApp.Namespace.OrdersController",
     "Method": "GetOrders",
     "RelativePath": "api/Orders",
@@ -7,6 +23,22 @@
     "IsController": true,
     "Order": 0,
     "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MyApp.Namespace.OrdersController",
+    "Method": "GetInvoice",
+    "RelativePath": "api/Orders/{orderId}/invoice",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "orderId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
     "ReturnTypes": []
   },
   {

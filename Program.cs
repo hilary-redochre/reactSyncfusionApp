@@ -1,7 +1,9 @@
 using Microsoft.EntityFrameworkCore;
 using reactSyncfusionApp.Models;
+using reactSyncfusionApp.Services;
 using Syncfusion.DocIO;
 using Syncfusion.DocIO.DLS;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -26,6 +28,8 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<SalesInvoiceDbContext>(options =>
     options.UseSqlServer(
         builder.Configuration.GetConnectionString("DefaultConnection")));
+
+builder.Services.AddScoped<SalesInvoiceService>();
 
 var app = builder.Build();
 

@@ -61,8 +61,8 @@ wwwroot\lib\jquery\dist\jquery.slim.js
 wwwroot\lib\jquery\dist\jquery.slim.min.js
 wwwroot\lib\jquery\dist\jquery.slim.min.map
 wwwroot\lib\jquery\LICENSE.txt
-wwwroot\Word\OrderTotals.xml
 wwwroot\Word\SalesInvoiceDemo.doc
+wwwroot\Word\OrderTotals.xml
 wwwroot\Word\TestOrder.xml
 wwwroot\Word\TestOrderDetails.xml
 C:\Users\User\source\repos\reactSyncfusionApp\reactSyncfusionApp\wwwroot\css\site.css
