@@ -1,4 +1,17 @@
 import { useState } from 'react';
+import { DocumentEditorContainerComponent, Toolbar } from '@syncfusion/ej2-react-documenteditor';
+// Syncfusion styles
+import '@syncfusion/ej2-base/styles/material.css';
+import '@syncfusion/ej2-buttons/styles/material.css';
+import '@syncfusion/ej2-inputs/styles/material.css';
+import '@syncfusion/ej2-popups/styles/material.css';
+import '@syncfusion/ej2-lists/styles/material.css';
+import '@syncfusion/ej2-navigations/styles/material.css';
+import '@syncfusion/ej2-splitbuttons/styles/material.css';
+import '@syncfusion/ej2-dropdowns/styles/material.css';
+import '@syncfusion/ej2-documenteditor/styles/material.css';
+
+DocumentEditorContainerComponent.Inject(Toolbar);
 
 function App() {
     //Example 2
@@ -29,49 +42,20 @@ function App() {
         }
     };
     return (
-        <div>
+        <div style= {{ height: '100vh' }}>
+
             <h1>Sales Invoice</h1>
             <button onClick = { createInvoice }>
                 Create Sales Invoice
             </button>
             <p> { message } </p>
+
+            <DocumentEditorContainerComponent id= "container" height= "100%" enableToolbar={true}/>
         </div>
     );
 
 
-
-
-    {/* Example 1 */}
-     {/* const [message, setMessage] = useState('');
-
-     const createWordDocument = async () => {
-         console.log('Button was clicked!');
-         try {
-             const response = await fetch(
-                 'https://localhost:7186/Home/TestWordDocument'
-             );
-
-             const text = await response.text();
-
-             setMessage(text);
-         }
-         catch (error) {
-             setMessage('Error connecting to the server.');
-             console.error(error);
-         }
-     };
-
-     return (
-         <div>
-         <h1>React App </h1>
-
-             < button onClick = { createWordDocument } >
-                 Create Word Document
-                     </button>
-
-                     < p > { message } </p>
-                     </div>
-     ); */}
+    
 }
 
 export default App;

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("reactSyncfusionApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b3b6f0ed002e65137900bf4a76972df73f9c9e73")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bd1a118b1f8e1565b1f1d0822ea74ab38514a781")]
 [assembly: System.Reflection.AssemblyProductAttribute("reactSyncfusionApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("reactSyncfusionApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
